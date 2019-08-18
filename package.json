@@ -5,17 +5,47 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|redux-persist|@react-navigation/.*|@unimodules/.*|sentry-expo|native-base)"
+    ]
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "expo": "^34.0.1",
+    "moment": "^2.24.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
-    "react-native-web": "^0.11.4"
+    "react-native-elements": "^1.1.0",
+    "react-native-web": "^0.11.4",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^6.0.0"
+    "@types/jest": "^22.2.3",
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-native": "^0.55.2",
+    "@types/react-test-renderer": "^16.0.1",
+    "babel-preset-expo": "^6.0.0",
+    "concurrently": "^3.5.1",
+    "expect": "^24.9.0",
+    "jest-expo": "^34.0.0",
+    "moxios": "^0.4.0",
+    "react-native-scripts": "1.13.1",
+    "react-test-renderer": "16.8.6",
+    "redux-mock-store": "^1.5.3",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^22.4.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
   },
   "private": true
 }

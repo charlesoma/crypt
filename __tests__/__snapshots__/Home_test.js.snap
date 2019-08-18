@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders correctly 1`] = `
+<View>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#1B2845",
+        "borderBottomColor": "#1B2845",
+        "borderBottomWidth": 0.5,
+        "elevation": 10,
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "space-around",
+        "paddingHorizontal": 10,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <Image
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": 64,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+      testID="headerContainer"
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 24,
+          }
+        }
+        text="Crypt"
+        theme={
+          Object {
+            "colors": Object {
+              "disabled": "hsl(208, 8%, 90%)",
+              "divider": "#bcbbc1",
+              "error": "#ff190c",
+              "grey0": "#393e42",
+              "grey1": "#43484d",
+              "grey2": "#5e6977",
+              "grey3": "#86939e",
+              "grey4": "#bdc6cf",
+              "grey5": "#e1e8ee",
+              "greyOutline": "#bbb",
+              "platform": Object {
+                "android": Object {
+                  "error": "#f44336",
+                  "primary": "#2196f3",
+                  "secondary": "#9C27B0",
+                  "success": "#4caf50",
+                  "warning": "#ffeb3b",
+                },
+                "ios": Object {
+                  "error": "#ff3b30",
+                  "primary": "#007aff",
+                  "secondary": "#5856d6",
+                  "success": "#4cd964",
+                  "warning": "#ffcc00",
+                },
+              },
+              "primary": "#2089dc",
+              "searchBg": "#303337",
+              "secondary": "#8F0CE8",
+              "success": "#52c41a",
+              "warning": "#faad14",
+            },
+          }
+        }
+      >
+        Crypt
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View>
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "paddingBottom": 180,
+          "paddingLeft": 25,
+          "paddingRight": 25,
+          "paddingTop": 25,
+        }
+      }
+      refreshControl={
+        <RefreshControlMock
+          onRefresh={[Function]}
+          refreshing={false}
+        />
+      }
+    >
+      <RCTRefreshControl />
+      <View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#1B2845",
+              "borderRadius": 8,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingBottom": 10,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 14,
+                "textAlign": "center",
+              }
+            }
+          >
+            Show more
+          </Text>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
